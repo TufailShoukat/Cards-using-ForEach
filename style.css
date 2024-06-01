@@ -1,0 +1,86 @@
+body {
+       background-color: #f0f0f0;
+       margin: 0;
+       padding: 0;
+       font-family: 'Roboto', sans-serif;
+}
+
+.markuee_div {
+       background-color: #f0f0f0;
+       padding: 10px;
+}
+
+.markuee_div marquee {
+
+       color: #333;
+       font-size: 18px;
+}
+
+.card-container {
+       display: flex;
+       flex-wrap: wrap;
+}
+
+.card {
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       padding: 16px;
+       margin: 8px;
+       width: 200px;
+       position: relative;
+       font-family: 'Distinctive and Stylish';
+       background-color: #fff;
+       transition: background-color 0.3s;
+}
+
+.card:hover {
+       background-color: #f0f0f0;
+}
+
+.card-heading {
+       font-size: 1.2em;
+       margin-bottom: 8px;
+       font-family: 'Roboto';
+}
+
+.card-body {
+       font-size: 1em;
+}
+
+.btn {
+       margin-top: 8px;
+       padding: 8px 16px;
+       border: none;
+       cursor: pointer;
+       transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn:hover {
+       transform: translateY(-2px);
+}
+
+.edit-btn {
+       background-color: #4CAF50;
+       color: white;
+       font-family: 'Distinctive and Stylish';
+       border-radius: 10px;
+}
+
+.delete-btn {
+       background-color: #f44336;
+       color: white;
+       font-family: 'Distinctive and Stylish';
+       border-radius: 10px;
+}
+
+.footer_diver {
+       background-color: #333;
+       color: #fff;
+       padding: 20px;
+       text-align: center;
+       font-family: Arial, sans-serif;
+}
+
+.footer_text {
+       font-size: 14px;
+}
